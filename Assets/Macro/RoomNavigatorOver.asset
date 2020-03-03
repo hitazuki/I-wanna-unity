@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: RoomNavigatorOver
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":118.5232,"y":-8.112005},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"","$type":"System.String"}},"position":{"x":345.0,"y":-39.0},"guid":"044bb521-e3dd-45d6-9f4d-e0b73851af9d","$version":"A","$type":"Bolt.InvokeMember","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Scene","$type":"System.String"},"object":null},"position":{"x":179.0,"y":86.0},"guid":"49d7fd15-65f8-4ec2-aa88-e6916ecc0ad8","$version":"A","$type":"Bolt.GetVariable","$id":"12"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"tag":{"$content":"Player","$type":"System.String"}},"position":{"x":-139.0,"y":-83.0},"guid":"b44af111-23c2-481c-816c-b74f7f45f320","$version":"A","$type":"Bolt.SuperUnit","$id":"14"},{"sourceUnit":{"$ref":"14"},"sourceKey":"target","destinationUnit":{"$ref":"9"},"destinationKey":"enter","guid":"42ecc3e6-d8d6-4a41-9faa-e3c128022379","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"%sceneName","guid":"b2eef918-6f2a-4688-a928-20c137e44077","$type":"Bolt.ValueConnection"},{"position":{"xMin":144.0,"yMin":-90.0,"xMax":516.0,"yMax":230.0},"label":"Load
+      level","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"1a45198d-ae1e-433f-9fe6-38e8b366f295","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 4b021c490bd850b4594b65372a1b216e, type: 2}

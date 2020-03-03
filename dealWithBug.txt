@@ -1,0 +1,5 @@
+人物、子弹碰撞方法改为协程
+渲染窗口大小在game视图固定
+Canvas Scaler：Scale With Screen Size
+
+加载bgm后第一次instantite的prefab没有脚本和变量，原因是使用使用了equal判断null和Sound标签对象
